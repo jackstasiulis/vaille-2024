@@ -1,10 +1,11 @@
 import './App.scss'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>vaille 2024</h1>
+      <Navbar />
     </>
   )
 }
