@@ -1,11 +1,13 @@
 import './App.scss'
+import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
 
-function App() {
+const App = () => {
 
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   )
 }

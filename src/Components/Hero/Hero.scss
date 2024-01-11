@@ -1,0 +1,27 @@
+@use '../../Styles/variables' as *;
+@use '../../Styles/mixins' as *;
+
+.hero{
+    width: 100%;
+    margin: 5rem 0rem 0rem 0rem;
+    // display: flex;
+    // justify-content: center;
+
+    &__image{
+        object-fit: cover;
+        width: 95%;
+        max-width: 80rem;
+        @include tablet{
+            height: 40rem;
+
+        }
+
+        &--container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0rem;
+
+        }
+    }
+}
