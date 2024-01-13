@@ -13,11 +13,20 @@
         grid-template-columns: repeat(auto-fill, 20rem);
         grid-gap: 1rem;
         justify-content: center;
-        @include tablet{
-            width: 70%;
+        @include mobileL{
+            width: 80%;
         }
+        // @include tablet{
+        //     width: 70%;
+        // }
+        // @include laptop{
+        //     width: 60%;
+        // }
         @include desktop{
-            width: 50%;
+            width: 65%;
+        }
+        @include desktopL{
+            width: 60%;
         }
 
         &--container{

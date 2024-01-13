@@ -6,8 +6,10 @@ const Footer = () => {
     <>
         <footer className='footer'>
             <div className='footer__options'>
-                <p className='footer__option'>OPTION</p>
-                <p className='footer__option'>OPTION</p>
+            <a href="/">
+                <p className='footer__option'>SHOP</p>
+              </a>
+                <p className='footer__option'>ABOUT</p>
                 {/* <img src="https://placehold.co/10x10" alt="instagram logo" /> */}
                 <svg className='footer__option--icon' xmlns="http://www.w3.org/2000/svg" viewBox='0 0 12 12'>
   <title>Instagram</title>

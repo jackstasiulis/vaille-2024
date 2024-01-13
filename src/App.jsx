@@ -7,6 +7,8 @@ import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
+
+
 const App = () => {
 
   return (
@@ -15,11 +17,9 @@ const App = () => {
 
     <BrowserRouter>
       <Routes>
+
         <Route path='/' element={<ShopPage />}/>
-        <Route path='/item' element={<ItemPage />}/>
-
-
-        
+        <Route path='/item/:itemId' element={<ItemPage />}/>
 
       </Routes>
     </BrowserRouter>

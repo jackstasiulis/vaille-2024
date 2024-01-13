@@ -1,0 +1,42 @@
+[
+    {
+    "id":1,
+    "title":"wrk jacket",
+    "price":"120",
+    "description":"a very nice jacket. handmade in our lab. features this and that. maybe we'll make this into a bullet list.",
+    "image1":"https://placehold.co/750x900",
+    "image2":"https://placehold.co/750x900",
+    "image3":"https://placehold.co/750x900",
+    "image4":"https://placehold.co/750x900"
+    },
+    {
+    "id":2,
+    "title":"bag??",
+    "price":"100",
+    "description":"a very nice bag. handmade in our lab. features this and that. maybe we'll make this into a bullet list.",
+    "image1":"https://placehold.co/750x900",
+    "image2":"https://placehold.co/750x900",
+    "image3":"https://placehold.co/750x900",
+    "image4":"https://placehold.co/750x900"
+    },
+    {
+    "id":3,
+    "title":"wrk jaqrewfeqwqcket",
+    "price":"432",
+    "description":"a very nice jaqefqwqefwcket. handmade in our lab. features ewqfqwef and that. maybe we'll make this into a bullet list.",
+    "image1":"https://placehold.co/750x900",
+    "image2":"https://placehold.co/750x900",
+    "image3":"https://placehold.co/750x900",
+    "image4":"https://placehold.co/750x900"
+    },
+    {
+    "id":4,
+    "title":"wrqwefqwefqwefk jacket",
+    "price":"4",
+    "description":"I AM NUMBER FOUR",
+    "image1":"https://placehold.co/750x900",
+    "image2":"https://placehold.co/750x900",
+    "image3":"https://placehold.co/750x900",
+    "image4":"https://placehold.co/750x900"
+    }
+]

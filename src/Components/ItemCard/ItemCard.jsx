@@ -1,23 +1,25 @@
 import './ItemCard.scss'
+import { Link } from 'react-router-dom';
 
-const ItemCard = () => {
+const ItemCard = ({id, title, price, image1, image2, image3, image4}) => {
 
   return (
     <>
-    <a href="/item">
+      <Link to={`/item/${id}`}>
         <article className='item-card'>
-            <div className='item-card__image--wrapper'>
-                <img className='item-card__image' src="https://placehold.co/480x600" alt="product image" />
-            </div>
+                <div className='item-card__image--wrapper'>
+                    <img className='item-card__image' src={image1} alt="product image" />
+                </div>
 
-            <div className='item-card__details'>
-                <p className='item-card__details--text'>title title title</p>
-                <p className='item-card__details--text'>$200</p>
-            </div>
+                <div className='item-card__details'>
+                    <p className='item-card__details--text'>{title}</p>
+                    <p className='item-card__details--text'>$ {price}</p>
+                </div>
 
 
-        </article>
-    </a>
+            </article>
+      </Link>
+        
  
     </>
   )

@@ -1,5 +1,6 @@
 import ItemCard from '../ItemCard/ItemCard'
 import './ShopSection.scss'
+import itemData from '../../assets/Data/product-details.json'
 
 const ShopSection = () => {
 
@@ -10,11 +11,23 @@ const ShopSection = () => {
 
             <div className='shop-section__cards--container'>
                 <div className='shop-section__cards'>
-                    <ItemCard />
-                    <ItemCard />
-                    <ItemCard />
-                    <ItemCard />
-                    <ItemCard />
+
+                    {itemData.map(item => {
+                      return(
+                        <ItemCard
+                        key={item.id}
+                        id={item.id}
+                        title={item.title}
+                        price={item.price}
+                        image1={item.image1}
+                        image2={item.image2}
+                        image3={item.image3}
+                        image4={item.image4}
+                        />
+                          
+                      )
+                    })}
+
                 </div>
             </div>
 
