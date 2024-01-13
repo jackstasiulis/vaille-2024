@@ -1,17 +1,30 @@
 import './App.scss'
-import Banner from './Components/Banner/Banner'
-import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
 import ShopPage from './Pages/ShopPage/ShopPage'
+import ItemPage from './Pages/ItemPage/ItemPage'
+import Footer from './Components/Footer/Footer'
+
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+
 
 const App = () => {
 
   return (
     <>
-      <Navbar />
-      <ShopPage />
-      <Banner />
-      <Footer />
+    <Navbar />
+
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<ShopPage />}/>
+        <Route path='/item' element={<ItemPage />}/>
+
+
+        
+
+      </Routes>
+    </BrowserRouter>
+
+    <Footer />
     </>
   )
 }

@@ -17,7 +17,7 @@ const Footer = () => {
                 </svg>
             </div>
 
-            <p>Vaille 2024</p>
+            <p>&#9786;Vaille 2024</p>
 
         </footer>
     </>

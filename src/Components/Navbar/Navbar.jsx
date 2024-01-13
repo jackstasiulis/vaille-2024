@@ -9,8 +9,10 @@ const Navbar = () => {
             <h3 className='navbar__logo'>vaille</h3>
 
             <div className='navbar__option--container'>
-                <h5 className='navbar__option'>OPTION</h5>
-                <h5 className='navbar__option'>OPTION</h5>
+              <a href="/">
+                <h5 className='navbar__option'>SHOP</h5>
+              </a>
+                <h5 className='navbar__option'>ABOUT</h5>
             </div>
 
         </nav>
