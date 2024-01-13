@@ -1,0 +1,43 @@
+@use '../../Styles/variables' as *;
+@use '../../Styles/mixins' as *;
+
+  .item-images {
+    width: 100%;
+
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem; 
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    // margin: 0 auto;
+    &__image{
+        max-width: 100%;
+        height: auto;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        max-width: 90rem;
+
+        @include tablet{
+            flex-direction: row;
+        height: 100vh;
+
+        }
+
+    }
+    &__info{
+        flex: 1;
+        padding: 1rem;
+        box-sizing: border-box;
+        // @include desktop{
+        //     max-width: 50%;
+        // }
+
+    }
+  }
+
+  

@@ -1,2 +1,8 @@
 @use '../../Styles/variables' as *;
 @use '../../Styles/mixins' as *;
+
+.item-page{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}

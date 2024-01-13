@@ -5,8 +5,9 @@ const Navbar = () => {
   return (
     <>
         <nav className='navbar'>
-
-            <h3 className='navbar__logo'>vaille</h3>
+            <a href="/">
+              <h3 className='navbar__logo'>vaille</h3>
+            </a>
 
             <div className='navbar__option--container'>
               <a href="/">

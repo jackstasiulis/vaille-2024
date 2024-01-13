@@ -4,6 +4,7 @@ const ItemCard = () => {
 
   return (
     <>
+    <a href="/item">
         <article className='item-card'>
             <div className='item-card__image--wrapper'>
                 <img className='item-card__image' src="https://placehold.co/480x600" alt="product image" />
@@ -16,6 +17,8 @@ const ItemCard = () => {
 
 
         </article>
+    </a>
+ 
     </>
   )
 }

@@ -1,12 +1,14 @@
-
-import Hero from '../../Components/Hero/Hero'
+import ItemImages from '../../Components/ItemImages/ItemImages'
 import './ItemPage.scss'
 
 const ItemPage = () => {
 
   return (
     <>
-        <h1>ITEMPAGE</h1>
+      <div className='item-page'>
+        <ItemImages />
+
+      </div>
     </>
   )
 }
