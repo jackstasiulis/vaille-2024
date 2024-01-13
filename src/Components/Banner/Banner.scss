@@ -1,0 +1,24 @@
+@use '../../Styles/variables' as *;
+@use '../../Styles/mixins' as *;
+
+.banner{
+    margin: 3rem 0 0;
+    width: 100%;
+    &__image{
+        height: 10rem;
+        object-fit: cover;
+        min-width: 100%;
+        max-width: 80rem;
+        @include tablet{
+            height: 20rem;
+        }
+        @include desktop{
+            height: 15rem;
+        }
+        &--wrapper{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
