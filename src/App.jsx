@@ -1,13 +1,13 @@
 import './App.scss'
-import Hero from './Components/Hero/Hero'
 import Navbar from './Components/Navbar/Navbar'
+import ShopPage from './Pages/ShopPage/ShopPage'
 
 const App = () => {
 
   return (
     <>
       <Navbar />
-      <Hero />
+      <ShopPage />
     </>
   )
 }
