@@ -14,10 +14,18 @@
 
     &__logo{
         font-size: 2rem;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.5;
+        }
         // margin: 1rem 0 0rem 0;
     }
     &__option{
         margin: 0.5rem 1rem 1rem 1rem;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.5;
+        }
         &--container{
             display: flex;
         }
