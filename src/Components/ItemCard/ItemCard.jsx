@@ -5,13 +5,13 @@ const ItemCard = () => {
   return (
     <>
         <article className='item-card'>
-            <div className='item-card__image--container'>
+            <div className='item-card__image--wrapper'>
                 <img className='item-card__image' src="https://placehold.co/480x600" alt="product image" />
             </div>
 
             <div className='item-card__details'>
-                <p>title title title</p>
-                <p>price : $200</p>
+                <p className='item-card__details--text'>title title title</p>
+                <p className='item-card__details--text'>$200</p>
             </div>
 
 

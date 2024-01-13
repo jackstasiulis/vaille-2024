@@ -14,6 +14,7 @@ const ShopSection = () => {
                     <ItemCard />
                     <ItemCard />
                     <ItemCard />
+                    <ItemCard />
                 </div>
             </div>
 
