@@ -22,12 +22,15 @@ const ItemPage = () => {
     } catch (error) {
       console.error('Error fetching item details:', error);
     }
+    
+    window.scrollTo(0, 0);
+
   }, [itemId]);
 
   return (
     <>
       <div className='item-page'>
-        
+
         <ItemImages item={item} />
 
       </div>

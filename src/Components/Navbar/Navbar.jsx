@@ -13,7 +13,10 @@ const Navbar = () => {
               <a href="/">
                 <h5 className='navbar__option'>SHOP</h5>
               </a>
+              
+              <a href="/about">
                 <h5 className='navbar__option'>ABOUT</h5>
+              </a>
             </div>
 
         </nav>
