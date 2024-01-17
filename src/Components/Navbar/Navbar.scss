@@ -14,7 +14,10 @@
 
     &__logo{
         font-size: 2rem;
+        // transition: ease .5s;
         &:hover{
+            // kickflip animation
+            // transform: rotateX(360deg) rotateY(20deg) ;
             cursor: pointer;
             opacity: 0.5;
         }

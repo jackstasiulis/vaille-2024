@@ -19,8 +19,8 @@ const FAQDropdown = () => {
 
   return (
     <>
-        <div className='faq-dropdown'>
-            <h2 className='faq-dropdown__title'>F.A.Q.</h2>
+        <section className='faq-dropdown'>
+            <h2 className='faq-dropdown__title'>FAQ</h2>
             {faqData.map((item, index) => (
 
                 <div key={index} className={`faq-dropdown__item ${openQuestion === index ? 'open' : ''}`}>
@@ -40,7 +40,7 @@ const FAQDropdown = () => {
                     )}
                 </div>
             ))}
-        </div>
+        </section>
     </>
   )
 }
