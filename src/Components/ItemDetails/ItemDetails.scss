@@ -1,0 +1,23 @@
+@use '../../Styles/variables' as *;
+@use '../../Styles/mixins' as *;
+
+.item-details{
+    &__title{
+
+    }
+    &__color{
+        padding: 0 0 1rem;
+    }
+    &__desc{
+        padding: 0 0 2rem;
+    }
+    &__details{
+        list-style-type: none;
+        &--title{
+            font-weight: 600;
+        }
+        &--feature{
+
+        }
+    }
+}

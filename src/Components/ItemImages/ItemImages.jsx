@@ -18,7 +18,15 @@ const ItemImages = ({item}) => {
         {/* check if item exists before rendering text */}
             {item ? (
                 <>
-                    <ItemDetails title={item.title} description={item.description} />
+                    <ItemDetails 
+                    title={item.title} 
+                    description={item.description}
+                    feature1={item.feature1}
+                    feature2={item.feature2}
+                    feature3={item.feature3}
+                    material={item.material}
+                    color={item.color}
+                    />
                 </>
                 ) : (
                     <p>Loading...</p>
