@@ -1,0 +1,12 @@
+@use '../../Styles/variables' as *;
+@use '../../Styles/mixins' as *;
+
+.about-form{
+    width: 25rem;
+
+    &__container{
+
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -4,10 +4,10 @@ import './FAQDropdown.scss'
 const FAQDropdown = () => {
     const faqData = [
         { question: 'How do I order from Vaille?', answer: 'To order, select your desired item from the shop page and follow the directions of the page.'},
-        { question: 'Question 1', answer: 'Answer 1'},
-        { question: 'Question 1', answer: 'Answer 1'},
-        { question: 'Question 1', answer: 'Answer 1'},
-        { question: 'Question 1', answer: 'Answer 1'}
+        { question: 'How and where are our garments made?', answer: 'Answer 1'},
+        { question: 'Where does Vaille ship?', answer: 'Answer 1'},
+        { question: 'How do I commisson a custom garment?', answer: 'Answer 1'},
+        { question: 'My question is not on this list.', answer: 'Answer 1'}
     ];
 
     // Sets wHich question is open

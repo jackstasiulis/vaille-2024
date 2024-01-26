@@ -1,3 +1,4 @@
+import AboutForm from '../../Components/AboutForm/AboutForm'
 import FAQDropdown from '../../Components/FAQDropdown/FAQDropdown'
 import './AboutPage.scss'
 
@@ -16,6 +17,11 @@ const AboutPage = () => {
                 <img className='about-page__faq--image' src="https://placehold.co/750x750" alt="" />
                 <FAQDropdown />
             </div>
+
+            <div className='about-page__form'>
+              <AboutForm />
+            </div>
+
 
         </div>
     </>
