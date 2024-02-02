@@ -42,11 +42,9 @@ const AboutForm = () => {
       <div className='about-form__container'>
         <h2 className='about-form__title'>General Inquiry Form</h2>
           <form className='about-form' onSubmit={sendEmail}>
-              <label>email</label>
-              <input type="text" name='email' />
+              <input className='about-form__input' placeholder='EMAIL' type="text" name='email' />
 
-              <label>name</label>
-              <input type="text" name='name' />
+              <input className='about-form__input' placeholder='NAME' type="text" name='name' />
               
               <div className='about-form__radio--container'>
                 {options.map((subject) => (
@@ -72,10 +70,9 @@ const AboutForm = () => {
 
 
 
-              <label>message</label>
-              <input type="text" name='message' />
+              <textarea className='about-form__textarea' placeholder='MESSAGE' type="text" name='message' />
 
-              <input type="submit" />
+              <input className='about-form__submit' type="submit" />
           </form>
       </div>
 

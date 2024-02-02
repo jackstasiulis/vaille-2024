@@ -6,6 +6,41 @@
     display: flex;
     flex-direction: column;
 
+    &__input{
+        padding: 0.5rem 0;
+        border: none;
+        border-bottom: 1px solid black;
+        margin: 1rem 0;
+        &:focus{
+            outline: none;
+        }
+    }
+    &__textarea{
+        border: none;
+        border-bottom: 1px solid black;
+        resize: none;
+        height: 6rem;
+        margin: 1rem 0;
+        font-family: inherit; // Reset font family to inherit from the parent element
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &__submit{
+        border-radius: 0;
+        border: 1px solid black;
+        background-color: white;
+        padding: 0.5rem;
+        margin: 1rem 0;
+        transition: background-color ease 0.1s;
+        &:hover{
+            cursor: pointer;
+            background-color: grey;
+            border: 1px solid grey;
+        }
+    }
+
     &__container{
         display: flex;
         flex-direction: column;
@@ -16,6 +51,7 @@
             display: flex;
             justify-content: space-between;
             margin: 1rem 0;
+
         }
 
         &--label{
@@ -23,6 +59,9 @@
             // margin: 1rem;
             // background-color: grey;
             border: 1px solid black;
+            &:hover{
+                cursor: pointer;
+            }
             &__selected{
                 background-color: black;
                 color: white;
