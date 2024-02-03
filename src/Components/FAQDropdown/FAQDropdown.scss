@@ -3,6 +3,11 @@
 
 .faq-dropdown {
     width: 25rem;
+    margin-top: 2rem;
+    @include tablet {
+        margin-top: 0;
+    }
+
     &__item{
         height: 2.5rem;
 

@@ -26,7 +26,7 @@ const AboutForm = () => {
 
   return (
     <div className='about-form__container'>
-      <h2 className='about-form__title'>General Inquiry Form</h2>
+      <h2 className='about-form__title'>Talk to us...</h2>
       <form className='about-form' onSubmit={handleSubmit(sendEmail)}>
 
         <div className='about-form__input--container'>
