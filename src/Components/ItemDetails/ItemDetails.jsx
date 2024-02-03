@@ -1,6 +1,6 @@
 import './ItemDetails.scss'
 
-const ItemDetails = ({title, description, feature1, feature2, feature3, material, color}) => {
+const ItemDetails = ({title, description, feature1, feature2, feature3, material, color, fit1, fit2}) => {
    
     
   return (
@@ -16,6 +16,9 @@ const ItemDetails = ({title, description, feature1, feature2, feature3, material
                 <li className='item-details__details--feature'>{`- ${feature3}`}</li>
                 <li className='item-details__details--feature'>{`- ${material}`}</li>
             </ul>
+            <p className='item-details__fit--title'>Fit</p>
+            <p>{`- ${fit1}`}</p>
+            <p>{`- ${fit2}`}</p>
         </div>
     </>
   )

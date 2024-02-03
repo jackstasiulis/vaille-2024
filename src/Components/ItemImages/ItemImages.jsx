@@ -26,6 +26,9 @@ const ItemImages = ({item}) => {
                     feature3={item.feature3}
                     material={item.material}
                     color={item.color}
+                    fit1={item.fit1}
+                    fit2={item.fit2}
+
                     />
                 </>
                 ) : (
