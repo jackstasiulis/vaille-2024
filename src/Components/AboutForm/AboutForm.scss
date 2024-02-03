@@ -7,6 +7,7 @@
     flex-direction: column;
 
     &__input{
+        width: 100%;
         padding: 0.5rem 0;
         border: none;
         border-bottom: 1px solid black;
@@ -14,16 +15,35 @@
         &:focus{
             outline: none;
         }
+        &.error{
+            border-color: red;
+        }
+        &--container{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+        }
+        &--errorAsterisk{
+            right: 0;
+            position: absolute;
+            color: red;
+            font-size: 1.5rem;
+        }
     }
     &__textarea{
+        width: 100%;
         border: none;
         border-bottom: 1px solid black;
         resize: none;
         height: 6rem;
         margin: 1rem 0;
-        font-family: inherit; // Reset font family to inherit from the parent element
+        font-family: inherit;
         &:focus{
             outline: none;
+        }
+        &.error{
+            border-color: red;
         }
     }
 
