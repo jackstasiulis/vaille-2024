@@ -1,20 +1,21 @@
+import './ItemContent.scss'
 import ItemDetails from '../ItemDetails/ItemDetails';
-import './ItemImages.scss'
+import ItemForm from '../ItemForm/ItemForm';
 
-const ItemImages = ({item}) => {
+
+const ItemContent = ({item}) => {
     const imageUrls = item ? [item.image1, item.image2] : [];
 
   return (
     <>
-    <div className="item-images__container">
-
-        <div className="item-images">
+    <div className="item-content__container">
+        <div className="item-content">
             {imageUrls.map((imageUrl, index) => (
-                <img className='item-images__image' key={index} src={imageUrl} alt='product images' />
+                <img className='item-content__image' key={index} src={imageUrl} alt='product images' />
             ))}
         </div>
 
-        <div className="item-images__info">
+        <div className="item-content__info">
         {/* check if item exists before rendering text */}
             {item ? (
                 <>
@@ -28,17 +29,18 @@ const ItemImages = ({item}) => {
                     color={item.color}
                     fit1={item.fit1}
                     fit2={item.fit2}
-
                     />
                 </>
                 ) : (
                     <p>Loading...</p>
             )}
-        </div>
 
+            <ItemForm />
+
+        </div>
     </div>
     </>
   )
 }
 
-export default ItemImages
+export default ItemContent

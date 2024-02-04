@@ -30,13 +30,13 @@ const AboutForm = () => {
       <form className='about-form' onSubmit={handleSubmit(sendEmail)}>
 
         <div className='about-form__input--container'>
-          <input className={`about-form__input ${errors.email ? 'error' : ''}`} placeholder='EMAIL' type="text" {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/ })} />
-          {errors.email && <span className='about-form__input--errorAsterisk'>*</span>}
-        </div>
-        
-        <div className='about-form__input--container'>
           <input className={`about-form__input ${errors.name ? 'error' : ''}`} placeholder='NAME' type="text" {...register("name", { required: true })} />
           {errors.name && <span className='about-form__input--errorAsterisk'>*</span>}
+        </div>
+
+        <div className='about-form__input--container'>
+          <input className={`about-form__input ${errors.email ? 'error' : ''}`} placeholder='EMAIL' type="text" {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/ })} />
+          {errors.email && <span className='about-form__input--errorAsterisk'>*</span>}
         </div>
         
         <div className='about-form__radio--container'>

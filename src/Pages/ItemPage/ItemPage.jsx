@@ -1,5 +1,5 @@
-import ItemImages from '../../Components/ItemImages/ItemImages'
 import './ItemPage.scss'
+import ItemContent from '../../Components/ItemContent/ItemContent'
 import productDetails from '../../assets/Data/product-details.json';
 
 import { useParams } from 'react-router-dom';
@@ -31,7 +31,7 @@ const ItemPage = () => {
     <>
       <div className='item-page'>
 
-        <ItemImages item={item} />
+        <ItemContent item={item} />
 
       </div>
     </>
