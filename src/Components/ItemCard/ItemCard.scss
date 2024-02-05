@@ -19,7 +19,13 @@
         }
     }
     &__details{
-
+        &--availability{
+            position: absolute;
+            margin-top: 11rem;
+            font-weight: 600;
+            background-color: red;
+            color: white;
+        }
         &--text{
 
         }

@@ -20,6 +20,7 @@ const ItemContent = ({item}) => {
             {item ? (
                 <>
                     <ItemDetails 
+                    availability={item.availability}
                     title={item.title} 
                     description={item.description}
                     feature1={item.feature1}

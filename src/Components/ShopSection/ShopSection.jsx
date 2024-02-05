@@ -16,6 +16,7 @@ const ShopSection = () => {
                       return(
                         <ItemCard
                         key={item.id}
+                        availability={item.availability}
                         id={item.id}
                         title={item.title}
                         price={item.price}

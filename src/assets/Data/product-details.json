@@ -1,6 +1,7 @@
 [
     {
     "id":1,
+    "availability":"yes",
     "title":"Haff-Day Jacket 001",
     "price":"120",
     "description":"Work jacket concept. One of one. First of its series and first official garment from Vaille.",
@@ -17,6 +18,7 @@
     },
     {
     "id":2,
+    "availability":"no",
     "title":"Fck U Bag 001",
     "price":"100",
     "description":"a very nice bag. handmade in our lab. features this and that. maybe we'll make this into a bullet list.",
@@ -34,6 +36,7 @@
     },
     {
     "id":3,
+    "availability":"yes",
     "title":"Haff-Day Jacket 002",
     "price":"250",
     "description":"Work jacket concept. One of one. Second of its series and second official garment from Vaille.",
@@ -51,6 +54,7 @@
     },
     {
     "id":4,
+    "availability":"yes",
     "title":"Sticker",
     "price":"5",
     "description":"PUTTING THAT DOG IN YOU SURGERY STICKER",
@@ -58,9 +62,9 @@
     "feature2":"Perfect / Die-cut",
     "feature3":"Water-resistant",
     "material":"Glossy Vinyl",
-    "color":"Emerald",
+    "color":"Black / White",
     "fit1":"Put it on your water bottle",
-    "fit2":"Makes your preferred sex like you",
+    "fit2":"Makes your wife finally respect you",
     "image1":"https://placehold.co/750x900",
     "image2":"https://placehold.co/750x900",
     "image3":"https://placehold.co/750x900",
