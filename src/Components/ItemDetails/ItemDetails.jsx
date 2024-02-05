@@ -1,12 +1,16 @@
 import './ItemDetails.scss'
 
-const ItemDetails = ({title, description, feature1, feature2, feature3, material, color, fit1, fit2}) => {
+const ItemDetails = ({availability, title, description, feature1, feature2, feature3, material, color, fit1, fit2}) => {
    
     
   return (
     <>
         <div className='item-details'>
+          <div className='item-details__title--wrapper'>
             <h1 className='item-details__title'>{title}</h1>
+            {availability === 'no' ? <p className='item-details__availability'>SOLD</p> : null}
+          </div>
+            
             <p className='item-details__color'>{color}</p>
             <p className='item-details__desc'>{description}</p>
             <ul className='item-details__details'>

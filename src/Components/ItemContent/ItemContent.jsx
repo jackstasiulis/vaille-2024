@@ -35,8 +35,7 @@ const ItemContent = ({item}) => {
                 ) : (
                     <p>Loading...</p>
             )}
-
-            <ItemForm />
+            {item && item.availability === 'yes' && <ItemForm title={item.title} price={item.price}/>}
 
         </div>
     </div>

@@ -3,7 +3,17 @@
 
 .item-details{
     &__title{
-
+        &--wrapper{
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__availability{
+        margin-left: 2rem;
+        padding: 0.1rem;
+        font-weight: 600;
+        background-color: red;
+        color: white;
     }
     &__color{
         padding: 0 0 1rem;
