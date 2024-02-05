@@ -9,8 +9,8 @@ const AboutPage = () => {
         <div className='about-page'>
 
             <div className='about-page__header'>
-                <h1 className='about-page__header--title'>Whats Vaille</h1>
-                <p className='about-page__header--text'>We are a creative brand and community. We make clothing, other items, furniture and design alot of cool shit.</p>
+                <h3 className='about-page__header--title'>...</h3>
+                <p className='about-page__header--text'>Make cool shit.</p>
             </div>
 
             <div className='about-page__faq'>

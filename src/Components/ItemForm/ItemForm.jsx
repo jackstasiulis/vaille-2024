@@ -2,14 +2,15 @@ import './ItemForm.scss'
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 
+
 const ItemForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
-  const sendEmail = ( e) => {
+  const sendEmail = (data, e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_ssp8j68', 'template_9w09jae', e.target, '996iLhn-7GkMbs3nv')
-      .then(() => {
+      .then((result) => {
         e.target.reset();
       }, (error) => {
         console.log(error.text);
