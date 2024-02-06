@@ -30,12 +30,12 @@ const AboutForm = () => {
       <form className='about-form' onSubmit={handleSubmit(sendEmail)}>
 
         <div className='about-form__input--container'>
-          <input className={`about-form__input ${errors.name ? 'error' : ''}`} placeholder='NAME' type="text" {...register("name", { required: true })} />
+          <input className={`about-form__input ${errors.name ? 'error' : ''}`} class="no-zoom" value="zoom disabled" placeholder='NAME' type="text" {...register("name", { required: true })} />
           {errors.name && <span className='about-form__input--errorAsterisk'>*</span>}
         </div>
 
         <div className='about-form__input--container'>
-          <input className={`about-form__input ${errors.email ? 'error' : ''}`} placeholder='EMAIL' type="text" {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/ })} />
+          <input className={`about-form__input ${errors.email ? 'error' : ''}`} class="no-zoom" value="zoom disabled" placeholder='EMAIL' type="text" {...register("email", { required: true, pattern: /^\S+@\S+\.\S+$/ })} />
           {errors.email && <span className='about-form__input--errorAsterisk'>*</span>}
         </div>
         
@@ -49,7 +49,7 @@ const AboutForm = () => {
         </div>
         
         <div className='about-form__input--container'>
-          <textarea className={`about-form__textarea ${errors.message ? 'error' : ''}`} placeholder='MESSAGE' type="text" name='message' {...register("message", { required: true })} />
+          <textarea className={`about-form__textarea ${errors.message ? 'error' : ''}`} class="no-zoom" value="zoom disabled" placeholder='MESSAGE' type="text" name='message' {...register("message", { required: true })} />
           {errors.message && <span className='about-form__input--errorAsterisk'>*</span>}
           </div>
         <input className='about-form__submit' type="submit" />
