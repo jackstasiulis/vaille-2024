@@ -70,6 +70,7 @@
         }
         &:focus{
             background-color: black;
+            border: 1px solid black;
             color: white;
         }
     }
@@ -99,11 +100,19 @@
                 padding: 0.5rem;
             }
             &:hover{
+                background-color: grey;
+                border: 1px solid grey;
+                color: white;
                 cursor: pointer;
             }
             &__selected{
                 background-color: black;
                 color: white;
+                &:hover{
+                    background-color: black;
+                    border: 1px solid black;
+                    cursor: pointer;
+                }
             }
         }
     }

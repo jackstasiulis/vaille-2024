@@ -20,7 +20,7 @@ const ItemForm = ({title, price}) => {
   return (
     <>
     <section className="item-form">
-      <h2>Item Form</h2>
+      <h2>Purchase Form</h2>
       
       <p>To purchase | complete the form below</p>
       <form className='item-form' onSubmit={handleSubmit(sendEmail)}>
