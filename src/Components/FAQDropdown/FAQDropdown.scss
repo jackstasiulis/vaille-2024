@@ -4,6 +4,12 @@
 .faq-dropdown {
     width: 25rem;
     margin-top: 2rem;
+    @include mobileM{
+        width: 20rem;
+    }
+    @include mobileL{
+        width: 25rem;
+    }
     @include tablet {
         margin-top: 0;
     }
