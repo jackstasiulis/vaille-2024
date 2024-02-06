@@ -22,6 +22,7 @@ const ItemContent = ({item}) => {
                     <ItemDetails 
                     availability={item.availability}
                     title={item.title} 
+                    price={item.price}
                     description={item.description}
                     feature1={item.feature1}
                     feature2={item.feature2}

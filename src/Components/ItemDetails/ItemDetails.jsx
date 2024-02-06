@@ -1,6 +1,6 @@
 import './ItemDetails.scss'
 
-const ItemDetails = ({availability, title, description, feature1, feature2, feature3, material, color, fit1, fit2}) => {
+const ItemDetails = ({availability, title, price, description, feature1, feature2, feature3, material, color, fit1, fit2}) => {
    
     
   return (
@@ -10,8 +10,11 @@ const ItemDetails = ({availability, title, description, feature1, feature2, feat
             <h1 className='item-details__title'>{title}</h1>
             {availability === 'no' ? <p className='item-details__availability'>SOLD</p> : null}
           </div>
-            
-            <p className='item-details__color'>{color}</p>
+
+            <div className='item-details__color--container'>
+              <p className='item-details__price'>${price}</p>
+              <p className='item-details__color'>{color}</p>
+            </div>
             <p className='item-details__desc'>{description}</p>
             <ul className='item-details__details'>
                 <p className='item-details__details--title'>Details</p>

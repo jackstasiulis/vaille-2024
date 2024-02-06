@@ -15,8 +15,17 @@
         background-color: red;
         color: white;
     }
+    &__price{
+        font-weight: 600;
+        font-family: monospace;
+        margin-top: 0.25rem;
+    }
     &__color{
         padding: 0 0 1rem;
+        margin-left: 1rem;
+        &--container{
+            display: flex;
+        }
     }
     &__desc{
         padding: 0 0 2rem;
