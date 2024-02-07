@@ -7,6 +7,14 @@
     flex: 1;
     overflow-y: auto;
     padding: 1rem; 
+
+    display: flex;
+    gap: 1rem;
+    @include tablet{
+        flex-direction: column;
+    }
+    
+    
     &::-webkit-scrollbar{
         display: none;
     }
