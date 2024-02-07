@@ -25,7 +25,9 @@ const ItemDetails = ({availability, title, price, description, feature1, feature
             </ul>
             <p className='item-details__fit--title'>Fit</p>
             <p>{`- ${fit1}`}</p>
-            <p>{`- ${fit2}`}</p>
+            {fit2 ? <p>{`- ${fit2}`}</p> : null}
+
+            {/* <p>{`- ${fit2}`}</p> */}
         </div>
     </>
   )
