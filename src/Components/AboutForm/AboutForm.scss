@@ -21,6 +21,7 @@
         border: none;
         border-bottom: 1px solid black;
         margin: 1rem 0;
+        border-radius: 0;
         -webkit-border-radius: 0;
 
         // @include mobileM{
@@ -59,6 +60,7 @@
         height: 6rem;
         margin: 1rem 0;
         font-family: inherit;
+        border-radius: 0;
         -webkit-border-radius: 0;
         &:focus{
             outline: none;
