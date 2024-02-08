@@ -23,9 +23,11 @@ const Footer = () => {
                 </a>
 
             </div>
-            <span className='footer__copy--smiley'>&#9786;</span>
-
-            <p className='footer__copy'>Vaille 2024</p>
+            <div  className='footer__copy'>
+              <span className='footer__copy--smiley'>&#9786;</span>
+              <p className='footer__copy--text'>Vaille 2024</p>
+            </div>
+            
 
         </footer>
     </>
