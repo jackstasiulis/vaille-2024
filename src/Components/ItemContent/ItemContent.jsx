@@ -4,7 +4,7 @@ import ItemForm from '../ItemForm/ItemForm';
 
 
 const ItemContent = ({item}) => {
-    const imageUrls = item ? [item.image1, item.image2] : [];
+    const imageUrls = item ? [item.image1, item.image2, item.image3, item.image4] : [];
 
   return (
     <>

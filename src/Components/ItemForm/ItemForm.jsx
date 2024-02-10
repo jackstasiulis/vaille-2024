@@ -23,7 +23,7 @@ const ItemForm = ({title, price}) => {
       <h2>Purchase Form</h2>
       
       <p>To purchase | complete the form below</p>
-      <form className='item-form' onSubmit={handleSubmit(sendEmail)}>
+      <form className='item-form__form' onSubmit={handleSubmit(sendEmail)}>
 
         <input type="hidden" name="emailSubject" value="PURCHASE" />
         <input type="hidden" name="itemName" value={`Item Name: ${title} $${price}`} />
@@ -41,7 +41,10 @@ const ItemForm = ({title, price}) => {
         <div className='item-form__input--container'>
           <textarea className={`item-form__textarea ${errors.message ? 'error' : ''}`} placeholder='NOTES' type="text" name='message' {...register("message", { required: false })} />
           </div>
-        <input className='item-form__submit' type="submit" />
+
+        <div className='item-form__submit--wrapper'>
+          <input className='item-form__submit' type="submit" />
+        </div>
       </form>
     </section>
     </>

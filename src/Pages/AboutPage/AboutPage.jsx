@@ -14,7 +14,7 @@ const AboutPage = () => {
             </div>
 
             <div className='about-page__faq'>
-                <img className='about-page__faq--image' src="https://placehold.co/750x750" alt="" />
+                <img className='about-page__faq--image' src="https://imgur.com/UxNmAxc.jpg" alt="" />
                 <FAQDropdown />
             </div>
 
