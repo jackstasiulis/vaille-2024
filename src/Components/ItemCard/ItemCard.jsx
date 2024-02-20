@@ -14,7 +14,7 @@ const ItemCard = ({id, availability, title, price, image1, image2, image3, image
 
                 <div className='item-card__details'>
                     <p className='item-card__details--text'>{title}</p>
-                    <p className='item-card__details--text'>$ {price}</p>
+                    <p className='item-card__details--text__price'>$ {price}</p>
                     
                 </div>
 

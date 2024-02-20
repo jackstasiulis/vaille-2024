@@ -6,7 +6,7 @@ const FAQDropdown = () => {
         { question: 'How do I order from Vaille?', answer: 'To order, select your desired item from the shop page and complete the form on that page.'},
         { question: 'How and where are our garments made?', answer: 'All garments are handmade in Toronto, ON.'},
         { question: 'Where does Vaille ship?', answer: 'We will try to ship anywhere in the world. Costs may incur on locations distant from Toronto, ON.'},
-        { question: 'How do I commisson a custom garment?', answer: 'Fill out the below form on the about page to get in contact with the design team. '},
+        { question: 'How do I commission a custom garment?', answer: 'Fill out the below form on the about page to get in contact with the design team. We tend to commission garments smiliar to our past creations.'},
         { question: 'My question is not on this list.', answer: 'Hit us up below my friend.'}
     ];
 
@@ -28,6 +28,7 @@ const FAQDropdown = () => {
                     <div className="faq-dropdown__question" onClick={() => faqToggle(index)}>
                         {item.question}
                         <div className='faq-dropdown__arrow'>▷</div>
+                        {/* <div className='faq-dropdown__arrow'>▶</div> */}
                         {/* other arrow option: ▶ */}
                     </div>
 
