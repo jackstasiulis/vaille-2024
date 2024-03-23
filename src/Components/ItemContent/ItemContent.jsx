@@ -16,6 +16,7 @@ const ItemContent = ({item}) => {
         </div>
 
         <div className="item-content__info">
+            <p className='item-content__info--arrow'>scroll for more →</p>
         {/* check if item exists before rendering text */}
             {item ? (
                 <>
