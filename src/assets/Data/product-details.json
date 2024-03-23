@@ -33,7 +33,7 @@
     "image1":"https://imgur.com/HPkA9e0.png",
     "image2":"https://imgur.com/Ja1ldeg.png",
     "image3":"https://imgur.com/wmIyfzt.png",
-    "image4":"https://imgur.com/AjZlxpc.png"
+    "image4":"https://imgur.com/AjZlxpc.png" 
     },
     {
     "id":3,
@@ -57,7 +57,7 @@
     "id":4,
     "availability":"yes",
     "title":"Vaille - Sticker",
-    "price":"5",
+    "price":"7",
     "description":"Vaille METRO BERLIN. Very limited quantities available",
     "feature1":"2.5\"x 3.5\"",
     "feature2":"Die-cut",
@@ -66,9 +66,9 @@
     "color":"Multi-coloured",
     "fit1":"Put it on your water bottle",
     "fit2":"Could make your wife finally respect you",
-    "image1":"https://placehold.co/750x900",
-    "image2":"https://placehold.co/750x900",
-    "image3":"https://placehold.co/750x900",
-    "image4":"https://placehold.co/750x900"
+    "image1":"https://imgur.com/sGQJnpr.png",
+    "image2":"https://imgur.com/2jKFqmP.png",
+    "image3":"https://imgur.com/YEQXYnl.png",
+    "image4":"https://imgur.com/tMfkq4X.png"
     }
 ]

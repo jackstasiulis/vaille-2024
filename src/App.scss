@@ -31,3 +31,8 @@ a{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html, body {
+  overscroll-behavior: none;
+  scroll-behavior: auto; /* Or initial, if smooth scrolling is enabled by default */
+}
